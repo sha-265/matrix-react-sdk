@@ -25,7 +25,7 @@ module.exports = {
         }],
         // Disable `&_kind`-style selectors while our unused CSS approach is "Find & Replace All"
         // rather than a CI thing. Shorthand selectors are harder to detect when searching for a
-        // class name. This regex is trying to *allow* anything except `&words`, such as `&::before`,
+        // class name. This regsex is trying to *allow* anything except `&words`, such as `&::before`,
         // `&.mx_Class`, etc.
         "selector-nested-pattern": "^((&[ :.\\\[,])|([^&]))"
     }
